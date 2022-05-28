@@ -1,0 +1,51 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js");
+//Les icones
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+//POLICE
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #a78383;
+  font-family: 'Roboto Flex', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #0b4e58;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/**************COULEUR**************/
+
+
+/*************MODAL**************/
+.modal-backdrop {
+  z-index: -1!important;
+}
+
+/***********************NAVBAR**************/
+.logo-mic-annonces{
+  width: 50%;
+}
+
+/****************ACCUEIL****************/
+.card{
+  height: 100%!important;
+  border: none;
+  background-color: #e5e5e5;
+}
+/****************CARTE DE FRANCE************/
+div#legende{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/**********************ADMINISTRATION*******/
+
+
